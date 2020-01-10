@@ -81,7 +81,7 @@ if ($newIP) {
 
     # Write new IP address to temp file
 
-    $myp | Out-File -FilePath $env:TMPDIR/update-opendns_myip.txt
+    $myip | Out-File -FilePath $env:TMPDIR/update-opendns_myip.txt
 
 } else {
     
